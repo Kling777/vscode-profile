@@ -77,11 +77,7 @@
                 "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
             },
             "path": "cmd",
-            "args": [
-                "/k",
-                "chcp",
-                "65001"
-            ]
+            "args": ["/k", "chcp", "65001"]
         },
         "JavaSE-22": {
             "overrideName": true,
@@ -91,11 +87,7 @@
                 "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
             },
             "path": "cmd",
-            "args": [
-                "/k",
-                "chcp",
-                "65001"
-            ]
+            "args": ["/k", "chcp", "65001"]
         }
     },
     "terminal.integrated.env.windows": {
@@ -124,9 +116,7 @@
     "explorer.confirmDragAndDrop": false,
     "indentRainbow.tabmixColor": "",
     "indentRainbow.errorColor": "",
-    "cssPeek.peekToExclude": [
-        "**/bower_components/**"
-    ],
+    "cssPeek.peekToExclude": ["**/bower_components/**"],
     "javascript.updateImportsOnFileMove.enabled": "always",
     // custom by glenn raya
     "editor.copyWithSyntaxHighlighting": false,
@@ -137,7 +127,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "files.trimTrailingWhitespace": true,
     "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "top",
     "editor.detectIndentation": false,
     "window.nativeFullScreen": true,
     "files.insertFinalNewline": true,
@@ -151,7 +140,6 @@
     "scm.diffDecorations": "none",
     "editor.hover.delay": 1500,
     "editor.hover.enabled": true,
-    "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
@@ -190,8 +178,8 @@
         ".phpunit.result.cache": true
     },
     /**
-   * Code
-   **/
+     * Code
+     **/
     // Include "-" in word selection.
     "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
     "emmet.includeLanguages": {
@@ -206,12 +194,12 @@
         ".php_cs.dist": "php"
     },
     /**
-   * PHP
-   **/
+     * PHP
+     **/
     "php.suggest.basic": false,
     /**
-   * Prettier
-   **/
+     * Prettier
+     **/
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
@@ -270,7 +258,7 @@
     "chat.editor.wordWrap": "on",
     "editor.wordWrap": "wordWrapColumn",
     "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
     },
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
@@ -310,8 +298,8 @@
     // import custom css and js
     // change to the path to where you put your custom css ang js
     "vscode_custom_css.imports": [
-        "file:///C:/Users/Kling/customvsc.css",
-        "file:///C:/Users/Kling/customvsc.js"
+        "file:///C:/Users/Kling/vscTheme/customvsc.css",
+        "file:///C:/Users/Kling/vscTheme/customvsc.js"
     ],
     "workbench.sideBar.location": "right",
     "workbench.tree.enableStickyScroll": false,
@@ -349,6 +337,18 @@
     "tailwind-fold.foldedTextColor": "#C0EBA6",
     "tailwind-fold.foldedTextBackgroundColor": "#33372C",
     "LaravelExtraIntellisense.disableErrorAlert": true,
-    "catppuccin.accentColor": "lavender",
-    "workbench.iconTheme": "catppuccin-latte"
+    "workbench.iconTheme": "catppuccin-latte",
+    "bladeFormatter.format.noMultipleEmptyLines": true,
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.misc.dontShowNewVersionMessage": true,
+    "continue.telemetryEnabled": false,
+    "Devdb.colorTheme": "dark",
+    "Devdb.dontShowNewVersionMessage": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "prettier.configPath": "./.prettierrc.json",
+    "prettier.prettierPath": "./node_modules/prettier",
+    "editor.snippetSuggestions": "top",
+    "phpTools.suppressPremiumFeatures": true,
+    "bladeFormatter.format.sortHtmlAttributes": "code-guide",
+    "catppuccin.syncWithIconPack": false
 }
