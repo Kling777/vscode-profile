@@ -1,338 +1,354 @@
-
 {
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Catppuccin Macchiato",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "JetBrains Mono NL, Geist Mono",
-  "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay",
-  "blade.format.enable": true,
-  "window.zoomLevel": -1,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
-"editor.linkedEditing": true,
-  "editor.rulers": [
-    {
-      "column": 80,
-      "color": "#00FF0010"
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "JetBrains Mono NL, Geist Mono",
+    "editor.formatOnSave": true,
+    "blade.format.enable": true,
+    "window.zoomLevel": -1,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
     },
-    {
-      "column": 100,
-      "color": "#BDB76B15"
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "emmet.variables": {
+        "lang": "en"
     },
-    {
-      "column": 120,
-      "color": "#FA807219"
-    }
-  ],
-  "editor.unicodeHighlight.includeComments": true,
-  "emmet.variables": {
-    "lang": "en"
-  },
-  "workbench.colorCustomizations": {
-    "[Default Dark Modern]": {
-      "tab.activeBorderTop": "#00FF00",
-      "tab.unfocusedActiveBorderTop": "#00FF0088",
-      "textCodeBlock.background": "#00000055"
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
     },
-    "editor.wordHighlightStrongBorder": "#FF6347",
-    "editor.wordHighlightBorder": "#FFD700",
-    "editor.selectionHighlightBorder": "#A9A9A9"
-  },
-  "workbench.editor.revealIfOpen": true,
-  "workbench.tree.indent": 20,
-  "files.eol": "\n",
-  "[bat]": {
-    "files.eol": "\r\n"
-  },
-  "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.tabs.hideCondition": "never",
-  "terminal.integrated.profiles.windows": {
-    "JavaSE-1.8 LTS": {
-      "overrideName": true,
-      "env": {
-        "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;${env:PATH}",
-        "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
-      },
-      "path": "cmd"
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tree.indent": 20,
+    "files.eol": "\n",
+    "[bat]": {
+        "files.eol": "\r\n"
     },
-    "JavaSE-11 LTS": {
-      "overrideName": true,
-      "env": {
-        "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11\\bin;${env:PATH}",
-        "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
-      },
-      "path": "cmd"
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "terminal.integrated.profiles.windows": {
+        "JavaSE-1.8 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-11 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-17 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Java\\jdk-17\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Program Files\\Java\\jdk-17"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-21 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}",
+                "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
+            },
+            "path": "cmd",
+            "args": [
+                "/k",
+                "chcp",
+                "65001"
+            ]
+        },
+        "JavaSE-22": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
+                "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
+            },
+            "path": "cmd",
+            "args": [
+                "/k",
+                "chcp",
+                "65001"
+            ]
+        }
     },
-    "JavaSE-17 LTS": {
-      "overrideName": true,
-      "env": {
-        "PATH": "C:\\Program Files\\Java\\jdk-17\\bin;${env:PATH}",
-        "JAVA_HOME": "C:\\Program Files\\Java\\jdk-17"
-      },
-      "path": "cmd"
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21",
+        "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}"
     },
-    "JavaSE-21 LTS": {
-      "overrideName": true,
-      "env": {
-        "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}",
-        "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
-        "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
-      },
-      "path": "cmd",
-      "args": ["/k", "chcp", "65001"]
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "indentRainbow.colors": [
+        "rgba(24, 78, 119,0.15)",
+        "rgba(30, 96, 145,0.15)",
+        "rgba(26, 117, 159, 0.15)",
+        "rgba(22, 138, 173,0.15)",
+        "rgba(52, 160, 164,0.15)",
+        "rgba(82, 182, 154,0.15)",
+        "rgba(82, 182, 154,0.1)",
+        "rgba(82, 182, 154,0.05)",
+        "rgba(82, 182, 154,0.025)"
+    ],
+    "editor.trimAutoWhitespace": false,
+    "terminal.integrated.automationProfile.windows": {
+        "path": "cmd"
     },
-    "JavaSE-22": {
-      "overrideName": true,
-      "env": {
-        "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
-        "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
-        "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
-      },
-      "path": "cmd",
-      "args": ["/k", "chcp", "65001"]
-    }
-  },
-  "terminal.integrated.env.windows": {
-    "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21",
-    "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}"
-  },
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "explorer.confirmDelete": false,
-  "indentRainbow.colors": [
-    "rgba(24, 78, 119,0.15)",
-    "rgba(30, 96, 145,0.15)",
-    "rgba(26, 117, 159, 0.15)",
-    "rgba(22, 138, 173,0.15)",
-    "rgba(52, 160, 164,0.15)",
-    "rgba(82, 182, 154,0.15)",
-    "rgba(82, 182, 154,0.1)",
-    "rgba(82, 182, 154,0.05)",
-    "rgba(82, 182, 154,0.025)"
-  ],
-  "editor.trimAutoWhitespace": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[blade]": {
-    "editor.defaultFormatter": "onecentlin.laravel-blade"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "terminal.integrated.automationProfile.windows": {
-    "path": "cmd"
-  },
-  "workbench.startupEditor": "none",
-  "git.enableSmartCommit": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "html-css-class-completion.includeGlobPattern": "**/*.{css,html,php}",
-  "explorer.confirmDragAndDrop": false,
-  "indentRainbow.tabmixColor": "",
-  "indentRainbow.errorColor": "",
-  "cssPeek.peekToExclude": ["**/bower_components/**"],
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.statusBar.visible": false,
-  "editor.stickyScroll.enabled": false,
-  "workbench.sideBar.location": "right",
-
-  // custom by glenn raya
-  "editor.copyWithSyntaxHighlighting": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.emptySelectionClipboard": false,
-  "workbench.editor.enablePreview": false,
-  "window.newWindowDimensions": "inherit",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "files.trimTrailingWhitespace": true,
-  "diffEditor.renderSideBySide": false,
-  "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": false,
-  "window.nativeFullScreen": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "workbench.editor.showTabs": "none",
-  "editor.minimap.enabled": false,
-  "editor.lineNumbers": "off",
-  "editor.guides.indentation": false,
-
-  // Silence the Noise
-  "breadcrumbs.enabled": false,
-  "scm.diffDecorations": "none",
-  "editor.hover.delay": 1500,
-  "editor.hover.enabled": true,
-  "editor.matchBrackets": "never",
-  "workbench.tips.enabled": false,
-  "editor.colorDecorators": false,
-  "git.decorations.enabled": false,
-  "workbench.startupEditor": "none",
-  "editor.lightbulb.enabled": "off",
-  "editor.selectionHighlight": false,
-  "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "none",
-  "editor.occurrencesHighlight": "off",
-  "problems.decorations.enabled": false,
-  "editor.renderControlCharacters": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
-
-  // Typography
-  "editor.suggestFontSize": 16,
-  "editor.suggestLineHeight": 30,
-  "terminal.integrated.lineHeight": 1.5,
-  "terminal.integrated.fontSize": 16,
-
-  "search.useIgnoreFiles": false,
-  "search.exclude": {
-      // Hide everything in /vendor, except the "laravel" and "livewire" folder.
-      "**/vendor/{[^l],?[^ai]}*": true,
-      // Hide everything in /public, except "index.php"
-      "**/public/{[^i],?[^n]}*": true,
-      "**/node_modules": true,
-      "**/dist": true,
-      "**/_ide_helper.php": true,
-      "**/composer.lock": true,
-      "**/package-lock.json": true,
-      "storage": true,
-      ".phpunit.result.cache": true
-  },
-
-  /**
-  * Code
-  **/
-  // Include "-" in word selection.
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "emmet.includeLanguages": {
-      "blade": "html",
-      "vue-html": "html",
-      "vue": "html",
-      "react": "html",
-      "javascript": "html"
-  },
-  "files.associations": {
-      ".php_cs": "php",
-      ".php_cs.dist": "php"
-  },
-
-  /**
-  * PHP
-  **/
-  "php.suggest.basic": false,
-
-  /**
-  * Prettier
-  **/
-  "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-  },
-  "[tailwindcss]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-  },
-  "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-  },
-  "prettier.requireConfig": true,
-  "prettier.useEditorConfig": false,
-  "explorer.sortOrder": "type",
-  "prettier.tabWidth": 4,
-  "vetur.format.options.tabSize": 4,
-  "workbench.tree.indent": 15,
-  "[html]": {
-      "editor.defaultFormatter": "apility.beautify-blade",
-      "editor.formatOnSave": true
-  },
-  "editor.wordWrapColumn": 120,
-  "files.autoSave": "afterDelay",
-  "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-  },
-
-  "editor.quickSuggestions": {
-      "strings": true
-  },
-  "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.linkedEditing": true,
-  "editor.formatOnSave": false,
-  // "editor.fontLigatures": false,
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-  "diffEditor.wordWrap": "on",
-  "notebook.output.wordWrap": true,
-  "editor.fontSize": 16,
-  "editor.minimap.maxColumn": 250,
-  "codesnap.containerPadding": "8em",
-  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
-  "explorer.confirmDelete": false,
-  "editor.accessibilitySupport": "off",
-  "chat.editor.wordWrap": "on",
-  "editor.wordWrap": "wordWrapColumn",
-  "[php]": {
-      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "tailwindCSS.includeLanguages": {
-      "plaintext": "html"
-  },
-  "tailwindCSS.experimental.configFile": null,
-"editor.fontWeight": "700",
-  "workbench.statusBar.visible": false,
-  "editor.inlineSuggest.suppressSuggestions": true,
-  "codesnap.backgroundColor": "#FFC540",
-  "codesnap.showLineNumbers": false,
-  "codesnap.roundedCorners": true,
-  "editor.padding.top": 16,
-  "editor.cursorBlinking": "solid",
-  "editor.stickyScroll.enabled": false,
-  "editor.lineHeight": 32,
-
-  "editor.tokenColorCustomizations": {
-      "textMateRules": [
-          {
-            "scope": [
-              "comment",
-              "keyword",
-              "variable.language",
-              "entity.other.attribute-name.html",
-              "entity.other.attribute-name",
-              "keyword.control",
-              "storage.type",
-              "comment",
-              "comment.block",
-              "comment.line"
-            ],
-            "settings": {
-              "fontStyle": ""
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html,php}",
+    "explorer.confirmDragAndDrop": false,
+    "indentRainbow.tabmixColor": "",
+    "indentRainbow.errorColor": "",
+    "cssPeek.peekToExclude": [
+        "**/bower_components/**"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // custom by glenn raya
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "window.nativeFullScreen": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.showTabs": "none",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "off",
+    "editor.guides.indentation": false,
+    // Silence the Noise
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "git.decorations.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    // Typography
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.fontSize": 16,
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+        "**/vendor/{[^l],?[^ai]}*": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/{[^i],?[^n]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+    /**
+   * Code
+   **/
+    // Include "-" in word selection.
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue-html": "html",
+        "vue": "html",
+        "react": "html",
+        "javascript": "html"
+    },
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php"
+    },
+    /**
+   * PHP
+   **/
+    "php.suggest.basic": false,
+    /**
+   * Prettier
+   **/
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "explorer.sortOrder": "type",
+    "prettier.tabWidth": 4,
+    "vetur.format.options.tabSize": 4,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.wordWrapColumn": 120,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.linkedEditing": true,
+    // "editor.fontLigatures": false,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "editor.fontSize": 16,
+    "editor.minimap.maxColumn": 250,
+    "codesnap.containerPadding": "8em",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+    "explorer.confirmDelete": false,
+    "editor.accessibilitySupport": "off",
+    "chat.editor.wordWrap": "on",
+    "editor.wordWrap": "wordWrapColumn",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "tailwindCSS.experimental.configFile": null,
+    "editor.fontWeight": "700",
+    "workbench.statusBar.visible": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "codesnap.backgroundColor": "#FFC540",
+    "codesnap.showLineNumbers": false,
+    "codesnap.roundedCorners": true,
+    "editor.padding.top": 16,
+    "editor.cursorBlinking": "solid",
+    "editor.stickyScroll.enabled": false,
+    "editor.lineHeight": 32,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
             }
-          }
         ]
-  },
-  // import custom css and js
-  // change to the path to where you put your custom css ang js
-  "vscode_custom_css.imports": [
-      "file:///C:/Users/Kling/customvsc.css",
-      "file:///C:/Users/Kling/customvsc.js"
-  ],
-  "workbench.sideBar.location": "right",
-"workbench.tree.enableStickyScroll": false,
-"editor.stickyScroll.scrollWithEditor": false
+    },
+    // import custom css and js
+    // change to the path to where you put your custom css ang js
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/Kling/customvsc.css",
+        "file:///C:/Users/Kling/customvsc.js"
+    ],
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "terminal.integrated.letterSpacing": -3,
+    "database-client.telemetry.usesOnlineServices": false,
+    "files.autoSave": "afterDelay",
+    "[blade]": {
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": true,
+    "terminal.integrated.fontWeight": 500,
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+    "tailwind-fold.autoFold": true,
+    "tailwind-fold.supportedLanguages": [
+        "html",
+        "typescriptreact",
+        "javascriptreact",
+        "typescript",
+        "javascript",
+        "vue-html",
+        "vue",
+        "php",
+        "markdown",
+        "coffeescript",
+        "svelte",
+        "astro",
+        "blade",
+        "erb"
+    ],
+    "tailwind-fold.foldStyle": "QUOTES",
+    "tailwind-fold.foldedText": "Style",
+    "tailwind-fold.foldedTextColor": "#C0EBA6",
+    "tailwind-fold.foldedTextBackgroundColor": "#33372C",
+    "LaravelExtraIntellisense.disableErrorAlert": true,
+    "catppuccin.accentColor": "lavender",
+    "workbench.iconTheme": "catppuccin-latte"
 }
-
