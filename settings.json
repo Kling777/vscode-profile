@@ -1,7 +1,7 @@
 {
     "workbench.colorTheme": "Catppuccin Macchiato",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.fontFamily": "JetBrains Mono NL, Geist Mono",
+    "editor.fontFamily": "Fira Code",
     "editor.formatOnSave": true,
     "blade.format.enable": true,
     "window.zoomLevel": -1,
@@ -45,56 +45,12 @@
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.tabs.hideCondition": "never",
     "terminal.integrated.profiles.windows": {
-        "JavaSE-1.8 LTS": {
-            "overrideName": true,
-            "env": {
-                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;${env:PATH}",
-                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
-            },
-            "path": "cmd"
-        },
-        "JavaSE-11 LTS": {
-            "overrideName": true,
-            "env": {
-                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11\\bin;${env:PATH}",
-                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
-            },
-            "path": "cmd"
-        },
-        "JavaSE-17 LTS": {
-            "overrideName": true,
-            "env": {
-                "PATH": "C:\\Program Files\\Java\\jdk-17\\bin;${env:PATH}",
-                "JAVA_HOME": "C:\\Program Files\\Java\\jdk-17"
-            },
-            "path": "cmd"
-        },
-        "JavaSE-21 LTS": {
-            "overrideName": true,
-            "env": {
-                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}",
-                "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
-                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21"
-            },
-            "path": "cmd",
-            "args": ["/k", "chcp", "65001"]
-        },
-        "JavaSE-22": {
-            "overrideName": true,
-            "env": {
-                "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
-                "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
-                "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
-            },
-            "path": "cmd",
-            "args": ["/k", "chcp", "65001"]
+        "cmd": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": ["/K"]
         }
     },
-    "terminal.integrated.env.windows": {
-        "JAVA_HOME": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21",
-        "PATH": "C:\\Users\\Xxeet7\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin;${env:PATH}"
-    },
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "cmd",
     "indentRainbow.colors": [
         "rgba(24, 78, 119,0.15)",
         "rgba(30, 96, 145,0.15)",
@@ -133,18 +89,16 @@
     "files.trimFinalNewlines": true,
     "workbench.editor.showTabs": "none",
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "off",
     "editor.guides.indentation": false,
     // Silence the Noise
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
-    "editor.hover.delay": 1500,
+    "editor.hover.delay": 900,
     "editor.hover.enabled": true,
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
     "git.decorations.enabled": false,
     "workbench.startupEditor": "none",
-    "editor.lightbulb.enabled": "off",
     "editor.selectionHighlight": false,
     "editor.overviewRulerBorder": false,
     "editor.renderLineHighlight": "none",
@@ -162,7 +116,7 @@
     "editor.suggestFontSize": 16,
     "editor.suggestLineHeight": 30,
     "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 20,
     "search.useIgnoreFiles": false,
     "search.exclude": {
         // Hide everything in /vendor, except the "laravel" and "livewire" folder.
@@ -220,7 +174,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-    "prettier.requireConfig": true,
+    "prettier.requireConfig": false,
     "prettier.useEditorConfig": false,
     "explorer.sortOrder": "type",
     "prettier.tabWidth": 4,
@@ -246,7 +200,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
     // "editor.fontLigatures": false,
-    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "editor.fontLigatures": true,
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
     "editor.fontSize": 16,
@@ -256,15 +210,14 @@
     "explorer.confirmDelete": false,
     "editor.accessibilitySupport": "off",
     "chat.editor.wordWrap": "on",
-    "editor.wordWrap": "wordWrapColumn",
     "[php]": {
-        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
     },
     "tailwindCSS.experimental.configFile": null,
-    "editor.fontWeight": "700",
+    "editor.fontWeight": "500",
     "workbench.statusBar.visible": false,
     "editor.inlineSuggest.suppressSuggestions": true,
     "codesnap.backgroundColor": "#FFC540",
@@ -314,8 +267,6 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.guides.bracketPairs": true,
     "terminal.integrated.fontWeight": 500,
-    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
-    "tailwind-fold.autoFold": true,
     "tailwind-fold.supportedLanguages": [
         "html",
         "typescriptreact",
@@ -345,10 +296,19 @@
     "Devdb.colorTheme": "dark",
     "Devdb.dontShowNewVersionMessage": true,
     "html-css-class-completion.enableEmmetSupport": true,
-    "prettier.configPath": "./.prettierrc.json",
-    "prettier.prettierPath": "./node_modules/prettier",
+    // "prettier.configPath": "./.prettierrc.json",
+    // "prettier.prettierPath": "./node_modules/prettier",
     "editor.snippetSuggestions": "top",
     "phpTools.suppressPremiumFeatures": true,
     "bladeFormatter.format.sortHtmlAttributes": "code-guide",
-    "catppuccin.syncWithIconPack": false
+    "catppuccin.syncWithIconPack": false,
+    "php.inlayHints.parameters.suppressNameMatchingValue": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "tailwind-fold.autoFold": false,
+    "extensions.ignoreRecommendations": true,
+    "php.inlayHints.types.lambdaParameter": false,
+    "intelephense.completion.maxItems": 50,
+    "intelephense.diagnostics.enable": false,
+    "editor.lightbulb.enabled": "off",
+    "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono"
 }
